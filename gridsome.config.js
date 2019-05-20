@@ -6,5 +6,12 @@
 
 module.exports = {
   siteName: 'Temples of IGEO',
-  plugins: []
+  plugins: [
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-47036341-5'
+      }
+    }
+  ]
 }
